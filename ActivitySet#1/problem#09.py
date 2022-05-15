@@ -1,7 +1,7 @@
 # Lists
 
 filename = "dataset/romeo.txt"
-p=input("enter the number:")
+p=input("enter the file name:")
 c=open(p)
 l=list()
 for line in c:
@@ -9,9 +9,12 @@ for line in c:
     for word in words:
         if word in l:
             continue
-        l.append(word)    
+        if word not in l:
+            l.append(word)
+            	
+                
+               
+                
+        
    
 print(sorted(l))            
-
-    
-        
