@@ -15,4 +15,4 @@ for line in fh:
         count=count+1
         total=total+z
 average=total/count
-print("Average spam confidence:",aver
+print("Average spam confidence:",average
