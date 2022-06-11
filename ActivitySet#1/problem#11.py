@@ -1,5 +1,4 @@
-# Tuples
-
+#TUPL
 filename = "dataset/mbox-short.txt"
 p =input("Enter the file name")
 c= open(p)
