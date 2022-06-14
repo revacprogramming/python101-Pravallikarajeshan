@@ -6,7 +6,7 @@ d=dict()
 X=tuple()
 for line in c:
     if not line.startswith("From "): 
-        continue
+        continue....
     else:    
         line=line.split()
         line=line[5]
