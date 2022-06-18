@@ -10,4 +10,4 @@ for line in C:
     num=int(num)
     line.append(line)
     sum=num
-print(sum)
+print(sum)..
